@@ -1,0 +1,106 @@
+/*Reset*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Layout*/
+body{
+  text-align: center;
+  font: 300 20px/1.7 'Spinnaker', sans-serif;
+}
+.header{
+  height: 450px; background: url(../img/fondo.jpg) no-repeat center top; background-size: cover;}
+.navbar{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.lista-elementos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.lista-elementos figure {
+	
+}
+.navbar{
+	height: 63px;
+	background: #666666  ;
+}
+.navbar a {
+	color: white;
+	padding: 0 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font:20px 'IM Fell DW Pica SC', serif;
+}
+.title {
+margin-bottom: 40px; font: 60px 'Stint Ultra Condensed'; text-transform: uppercase;
+}
+ p {
+margin-bottom: 40px;
+}
+.contenido{
+	padding: 80 px 0;
+}
+.who{
+	background: #666666;
+	color: white;
+}
+.who p {
+ max-width: 1055px; margin: 0 auto;
+}
+.elementos {
+	background: #34495e;color: #fff;
+
+}  
+
+#navbar{
+	background: #226b80;
+	text-align: center;
+	padding: 10px  0px;
